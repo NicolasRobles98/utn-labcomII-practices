@@ -1,54 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+    
         table,
         td,
         th,
         caption {
-        border: 1px solid black;
-        border-collapse: collapse;
-        padding: 5px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
         }
+
         table {
-        width: 100%;
+            width: 100%;
         }
-        </style>
+
+    
+    </style>
 
     <title>Document</title>
-    
+
 </head>
+
 <body>
     <!-- tabla simple -->
+
+    <!-- ERA DE TRES FILAS PERO NO ENTRABA LA INFORMACION QUE QUERIA PONER -->
     <div>
         <table>
-            <tr>
-                <th colspan="">asd</th>
-                <th>asd</th>
-                <th>asd</th>
-                <th>asd</th>
-            </tr>
-        
-            <tr>
-                <td>das</td>
-                <td>das</td>
-                <td>dsa</td>
-                <td>dsa</td>
-            </tr>
-            <tr>
-                <td>sss</td>
-                <td>ss</td>
-                <td>ss</td>
-                <td>ssss</td>
-            </tr>
-            
+            <tbody>
+                <tr>
+                    <th>Tu altura</th>
+                    <th>Talla carretera Centímetros</th>
+                    <th>Talla montaña Pulgadas</th>
+                    <th>Talla genérica</th>
+                </tr>
+                <tr>
+                    <td>1,55 / 1,60 cm</td>
+                    <td>47 - 48 - 49</td>
+                    <td>14 - 15</td>
+                    <td>XS</td>
+                </tr>
+                <tr>
+                    <td>1,60 / 1,65 cm</td>
+                    <td>49 - 50 - 51</td>
+                    <td>15 -16</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td>1,65 / 1,70 cm</td>
+                    <td>51 - 52 - 53</td>
+                    <td>16 - 17</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td>1,70 / 1,75 cm</td>
+                    <td>53 - 54 - 55</td>
+                    <td>17 - 18</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>1,75 /1,80 cm</td>
+                    <td>55 - 56 - 57</td>
+                    <td>18 - 19</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>1,80 / 1,85 cm</td>
+                    <td>57 - 58 - 59</td>
+                    <td>19 -20</td>
+                    <td>L</td>
+                </tr>
+                <tr>
+                    <td>1,85 / 1,90 cm</td>
+                    <td>59 - 60 - 61</td>
+                    <td>20 - 21</td>
+                    <td>L</td>
+                </tr>
+                <tr>
+                    <td>+ 1,90 cm</td>
+                    <td>+ 61</td>
+                    <td>+22</td>
+                    <td>XL</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 
     <hr>
+
     <!-- tabla compleja -->
+
     <div>
         <table>
             <caption>Pintores mas famosos</caption>
@@ -61,27 +107,32 @@
                 </tr>
 
                 <!-- JAN VAN EYCK -->
-            
+
                 <tr>
                     <td rowspan="2">JAN VAN EYCK</td>
                     <td>Retrato de un hombre con turbante rojo</td>
                     <td>1433</td>
-                    <td rowspan="2"><a href="https://es.wikipedia.org/wiki/Jan_van_Eyck" target="_blank">JAN VAN EYCK</a></td>
-                    <td><a href="https://es.wikipedia.org/wiki/Retrato_de_hombre_con_turbante" target="_blank">Pintura</a></td>
+                    <td rowspan="2"><a href="https://es.wikipedia.org/wiki/Jan_van_Eyck" target="_blank">JAN VAN
+                            EYCK</a></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Retrato_de_hombre_con_turbante"
+                            target="_blank">Pintura</a></td>
                 </tr>
                 <tr>
                     <td>El retrato de Arnolfini</td>
                     <td>1434</td>
-                    <td><a href="https://es.wikipedia.org/wiki/Retrato_de_Giovanni_Arnolfini_y_su_esposa">Pintura</a></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Retrato_de_Giovanni_Arnolfini_y_su_esposa">Pintura</a>
+                    </td>
                 </tr>
-    
+
                 <!-- LEONARDO DA VINCI -->
                 <tr>
                     <td>LEONARDO DA VINCI</td>
                     <td>La Última Cena</td>
                     <td>1495 – 1498</td>
-                    <td><a href="https://es.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank">LEONARDO DA VINCI</a></td>
-                    <td><a href="https://es.wikipedia.org/wiki/La_%C3%BAltima_cena_(Leonardo_da_Vinci)" target="_blank">Pintura</a></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank">LEONARDO DA VINCI</a>
+                    </td>
+                    <td><a href="https://es.wikipedia.org/wiki/La_%C3%BAltima_cena_(Leonardo_da_Vinci)"
+                            target="_blank">Pintura</a></td>
                 </tr>
 
                 <!-- RAFAEL -->
@@ -90,13 +141,40 @@
                     <td>el Retrato de Baldassare Castiglione</td>
                     <td>1514 – 1515</td>
                     <td><a href="https://es.wikipedia.org/wiki/Rafael_Sanzio" target="_blank">RAFAEL</a></td>
-                    <td><a href="https://es.wikipedia.org/wiki/Retrato_de_Baltasar_Castiglione" target="_blank">Pintura</a></td>
+                    <td><a href="https://es.wikipedia.org/wiki/Retrato_de_Baltasar_Castiglione"
+                            target="_blank">Pintura</a></td>
                 </tr>
             </tbody>
 
-           
-            
+
+
         </table>
     </div>
+
+    <section>
+        <div>
+
+            <form class="">
+                <h2 class="">Contacto</h2>
+                <div class="">
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="">
+
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="">
+                    <textarea placeholder="Déjenos su mensaje"></textarea>
+                </div>
+                <div class="">
+                    <button class="" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
+
 </html>
